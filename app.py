@@ -12,7 +12,7 @@ def index_get():
 @app.post('/predict')
 def predict():
     text = request.get_json().get('message')
-    # CHECK IF TEXT IS VALID -> TODO
+    # CHECK IF TEXT IS VALID
 
     response = get_response(text)
     message = {'answer': response}
