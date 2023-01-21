@@ -1,8 +1,8 @@
 # Installing and loading necessary packages -----------------------
 import nltk
-import numpy as np
-# nltk.download('punkt')
+nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
+import numpy as np
 
 stemmer = PorterStemmer()
 
